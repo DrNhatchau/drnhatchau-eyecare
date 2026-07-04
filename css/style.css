@@ -179,6 +179,7 @@ section.alt { background: var(--bg-alt); }
 }
 .hero-text h1 { color: #fff; font-size: 2.6rem; margin-bottom: 16px; }
 .hero-text .slogan { font-size: 1.2rem; font-style: italic; color: #d9ecfc; margin-bottom: 26px; }
+.hero-text p { color: #eaf4fc; }
 .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 26px; }
 .hero-hotline { font-size: .95rem; color: #eaf4fc; }
 .hero-hotline strong { font-size: 1.15rem; color: #fff; }
