@@ -14,7 +14,7 @@ get_header();
       <p>Khám và điều trị chuyên sâu các bệnh lý về mắt: tật khúc xạ, bệnh võng mạc, màng bồ đào, glocom, đục thủy tinh thể... cùng đội ngũ bác sĩ giàu kinh nghiệm.</p>
       <div class="hero-actions">
         <a href="<?php echo esc_url( home_url( '/lien-he/' ) ); ?>" class="btn btn-primary">Đặt lịch khám</a>
-        <a href="<?php echo esc_url( get_post_type_archive_link( 'dich_vu' ) ); ?>" class="btn btn-outline">Xem dịch vụ</a>
+        <a href="<?php echo esc_url( get_post_type_archive_link( 'dich_vu' ) ); ?>" class="btn btn-outline-blue">Xem dịch vụ</a>
       </div>
       <p class="hero-hotline">Hotline tư vấn: <strong><?php echo esc_html( drnhatchau_get( 'contact_phone1' ) ); ?></strong> - <strong><?php echo esc_html( drnhatchau_get( 'contact_phone2' ) ); ?></strong></p>
     </div>

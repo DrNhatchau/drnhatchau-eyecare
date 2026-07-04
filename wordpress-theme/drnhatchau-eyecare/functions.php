@@ -33,7 +33,7 @@ add_action( 'after_setup_theme', 'drnhatchau_theme_setup' );
 /* Assets                                                              */
 /* ------------------------------------------------------------------ */
 function drnhatchau_enqueue_assets() {
-	wp_enqueue_style( 'drnhatchau-fonts', 'https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap', array(), null );
+	wp_enqueue_style( 'drnhatchau-fonts', 'https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap', array(), null );
 	wp_enqueue_style( 'drnhatchau-style', get_stylesheet_uri(), array(), DRNHATCHAU_VERSION );
 	wp_enqueue_script( 'drnhatchau-main', get_template_directory_uri() . '/js/main.js', array(), DRNHATCHAU_VERSION, true );
 }
