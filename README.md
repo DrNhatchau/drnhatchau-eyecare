@@ -1,6 +1,10 @@
 # Website Phòng Khám Mắt DrNhatChau
 
-Website tĩnh (HTML/CSS/JS thuần) cho Phòng Khám Mắt DrNhatChau, lấy cảm hứng cấu trúc từ [haiyeneyecare.com](https://haiyeneyecare.com).
+Website cho Phòng Khám Mắt DrNhatChau, lấy cảm hứng cấu trúc từ [haiyeneyecare.com](https://haiyeneyecare.com).
+
+Repo này có **2 phiên bản**:
+- **Bản tĩnh** (các file ở thư mục gốc, mô tả bên dưới) - nhẹ, không cần đăng bài thường xuyên.
+- **Bản WordPress** (`wordpress-theme/`) - có khung quản trị để tự đăng bài, thêm bác sĩ, thêm dịch vụ không cần biết code. Xem hướng dẫn tại [wordpress-theme/README.md](wordpress-theme/README.md).
 
 ## Cấu trúc thư mục
 
