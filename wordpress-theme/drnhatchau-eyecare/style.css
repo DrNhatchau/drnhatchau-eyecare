@@ -129,7 +129,6 @@ section.alt { background: var(--bg-alt); }
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 20px;
   background: #fff;
   padding: 12px 20px;
@@ -150,9 +149,8 @@ section.alt { background: var(--bg-alt); }
 
 .nav-menu {
   display: flex;
-  gap: 28px;
-  flex: 1;
-  justify-content: center;
+  gap: 18px;
+  margin-left: 30px;
 }
 .nav-menu a {
   font-weight: 600;
@@ -163,7 +161,7 @@ section.alt { background: var(--bg-alt); }
 }
 .nav-menu a:hover, .nav-menu li.current-menu-item > a { color: var(--primary); border-color: var(--primary); }
 
-.nav-cta { flex-shrink: 0; }
+.nav-cta { flex-shrink: 0; margin-left: auto; }
 
 .nav-toggle {
   display: none;
@@ -180,7 +178,7 @@ section.alt { background: var(--bg-alt); }
 .hero {
   background: linear-gradient(160deg, var(--bg-alt), #fff 65%);
   color: var(--text);
-  padding: 100px 0;
+  padding: 50px 0 90px;
 }
 .hero-inner {
   display: flex;
@@ -491,6 +489,7 @@ section.alt { background: var(--bg-alt); }
   .nav-menu {
     position: absolute;
     top: 100%; left: 0; right: 0;
+    margin-left: 0;
     background: #fff;
     flex-direction: column;
     gap: 0;
