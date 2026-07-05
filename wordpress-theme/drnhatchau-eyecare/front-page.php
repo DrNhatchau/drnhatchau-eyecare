@@ -19,7 +19,7 @@ get_header();
       <p class="hero-hotline">Hotline tư vấn: <strong><?php echo esc_html( drnhatchau_get( 'contact_phone1' ) ); ?></strong> - <strong><?php echo esc_html( drnhatchau_get( 'contact_phone2' ) ); ?></strong></p>
     </div>
     <div class="hero-visual">
-      Ảnh phòng khám / bác sĩ<br>(sẽ cập nhật sau)
+      <img src="https://matdrnhatchau.com/wp-content/uploads/2026/07/doi-ngu-phong-kham-1.jpg" alt="Đội ngũ Phòng Khám Mắt DrNhatChau" loading="lazy">
     </div>
   </div>
 </section>

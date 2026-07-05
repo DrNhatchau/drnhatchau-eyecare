@@ -102,6 +102,7 @@ section.alt { background: var(--bg-alt); }
   white-space: nowrap;
 }
 .topbar-contact a:hover, .topbar-social a:hover { color: #fff; text-decoration: underline; }
+.topbar-icon { vertical-align: -2px; margin-right: 1px; }
 
 /* ---------- Navbar ---------- */
 .site-header { position: sticky; top: 0; z-index: 100; }
