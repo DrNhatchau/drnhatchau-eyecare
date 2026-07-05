@@ -135,10 +135,10 @@ section.alt { background: var(--bg-alt); }
   padding: 12px 20px;
   box-shadow: var(--shadow);
 }
-.brand { display: flex; align-items: center; gap: 10px; }
-.brand-logo { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; flex-shrink: 0; }
-.brand-logo img { width: 100%; height: 100%; object-fit: contain; }
-.brand-logo a { display: inline-flex; width: 100%; height: 100%; }
+.brand { display: flex; align-items: stretch; gap: 10px; }
+.brand-logo { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.brand-logo img { height: 100%; width: auto; max-width: none; }
+.brand-logo a { display: inline-flex; align-items: center; height: 100%; }
 .brand-text {
   font-weight: 800;
   color: var(--primary-dark);

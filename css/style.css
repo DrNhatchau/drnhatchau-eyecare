@@ -114,8 +114,8 @@ section.alt { background: var(--bg-alt); }
   padding: 12px 20px;
   box-shadow: var(--shadow);
 }
-.brand { display: flex; align-items: center; gap: 10px; }
-.brand-logo { width: 44px; height: 44px; }
+.brand { display: flex; align-items: stretch; gap: 10px; }
+.brand-logo { height: 100%; width: auto; max-width: none; }
 .brand-text {
   font-weight: 800;
   color: var(--primary-dark);
