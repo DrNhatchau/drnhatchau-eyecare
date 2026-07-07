@@ -457,4 +457,16 @@ section.alt { background: var(--bg-alt); }
   section { padding: 50px 0; }
   .doctor-card { flex-direction: column; }
   .doctor-photo { width: 100%; }
+
+  .navbar { padding: 10px 14px; gap: 8px; }
+  .brand { gap: 4px; min-width: 0; }
+  .brand-logo { height: 34px; }
+  .brand-text { font-size: .6rem; letter-spacing: .02em; }
+  .brand-text strong { font-size: .82rem; }
+  .nav-toggle { flex-shrink: 0; margin-left: auto; }
+
+  .topbar-inner { padding: 6px 14px; }
+  .topbar-contact a { margin-right: 10px; font-size: .78rem; }
+
+  .hero-hotline strong { white-space: nowrap; }
 }
